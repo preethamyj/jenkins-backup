@@ -1,0 +1,23 @@
+Started by user [8mha:////4Fbb8/AKnJOj5fNvksSjRjFEP9CTyjWyrIeXpozLFHjaAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZe/dLi1CL9gqLU1JKMUgDFkCmQwgAAAA==[0mpreethamyj
+Running as SYSTEM
+Building remotely on [8mha:////4FvWiDkxkI0dkdVPGkIp3otubXThHAyQG9pHTEVi4C2PAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgY+/eT83ILSktQi/TygOwHwYj8LwwAAAA==[0mnode (linux) in workspace /var/lib/jenkins/workspace/c-projects
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/c-projects/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/preethamyj/c_projects.git # timeout=10
+Fetching upstream changes from https://github.com/preethamyj/c_projects.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/preethamyj/c_projects.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 145caab4a117af2f5453d5521d3f6faafd42d48f (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 145caab4a117af2f5453d5521d3f6faafd42d48f # timeout=10
+Commit message: "delete multi.c"
+ > git rev-list --no-walk 145caab4a117af2f5453d5521d3f6faafd42d48f # timeout=10
+[c-projects] $ /bin/sh -xe /tmp/jenkins452476726065647009.sh
++ cd /home/ec2-user/jenkins/workspace/c-projects
+/tmp/jenkins452476726065647009.sh: line 2: cd: /home/ec2-user/jenkins/workspace/c-projects: Not a directory
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

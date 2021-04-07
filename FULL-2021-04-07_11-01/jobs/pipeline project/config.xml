@@ -1,0 +1,45 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@2.40">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@1.8.4"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@1.8.4">
+      <jobProperties/>
+      <triggers/>
+      <parameters/>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description>this is to check pipeline configuration</description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2.90">
+    <script>pipeline {
+    agent any
+    stages {
+        stage(&quot;STAGE 1: BULID&quot;) {
+            steps {
+                echo &quot;this is build stage&quot;
+                sh &apos;&apos;&apos; ls
+                ls -lrt &apos;&apos;&apos;
+        }
+    }
+    stage (&quot;STAGE 2&quot;) {
+        steps {
+            echo &quot;this depoly stage&quot;
+        }
+    }
+    stage (&quot;STAGE 2 : TEST&quot;) {
+        steps {
+            echo &quot;this test stage&quot;
+        }
+    }
+}
+}
+
+
+</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

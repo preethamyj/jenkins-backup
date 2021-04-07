@@ -1,0 +1,22 @@
+Started by user [8mha:////4Fbb8/AKnJOj5fNvksSjRjFEP9CTyjWyrIeXpozLFHjaAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZe/dLi1CL9gqLU1JKMUgDFkCmQwgAAAA==[0mpreethamyj
+Started by user [8mha:////4Fbb8/AKnJOj5fNvksSjRjFEP9CTyjWyrIeXpozLFHjaAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZe/dLi1CL9gqLU1JKMUgDFkCmQwgAAAA==[0mpreethamyj
+Running as SYSTEM
+Building remotely on [8mha:////4EZ3ZDI0iK3NHIG8sGkuFlfUZtnNNn2txjchUS7/7JToAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/eKcxLJUAEnZB8bEAAAA[0mslave (slave1) in workspace /var/lib/jenkins/workspace/java-project
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/java-project/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/preethamyj/simple-java-project.git # timeout=10
+Fetching upstream changes from https://github.com/preethamyj/simple-java-project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/preethamyj/simple-java-project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 3f87b0e20899f391d1f616dcc5c7d707cdfbb672 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 3f87b0e20899f391d1f616dcc5c7d707cdfbb672 # timeout=10
+Commit message: "Create preethu"
+ > git rev-list --no-walk 3f87b0e20899f391d1f616dcc5c7d707cdfbb672 # timeout=10
+[java-project] $ /bin/sh -xe /tmp/jenkins108301243361486977.sh
++ cd /var/lib/jenkins/workspace/java-project
+Finished: SUCCESS

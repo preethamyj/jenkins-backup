@@ -1,0 +1,6 @@
+Started by user [8mha:////4Fbb8/AKnJOj5fNvksSjRjFEP9CTyjWyrIeXpozLFHjaAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZe/dLi1CL9gqLU1JKMUgDFkCmQwgAAAA==[0mpreethamyj
+Running as SYSTEM
+Building remotely on [8mha:////4EZ3ZDI0iK3NHIG8sGkuFlfUZtnNNn2txjchUS7/7JToAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/eKcxLJUAEnZB8bEAAAA[0mslave (slave1) in workspace /var/lib/jenkins/workspace/paralell@2
+[paralell@2] $ /bin/sh -xe /tmp/jenkins482598792400447006.sh
++ sleep 100
+Finished: SUCCESS

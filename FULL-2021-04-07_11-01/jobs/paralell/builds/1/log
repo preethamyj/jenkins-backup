@@ -1,0 +1,6 @@
+Started by user [8mha:////4Fbb8/AKnJOj5fNvksSjRjFEP9CTyjWyrIeXpozLFHjaAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZe/dLi1CL9gqLU1JKMUgDFkCmQwgAAAA==[0mpreethamyj
+Running as SYSTEM
+Building on master in workspace /home/ec2-user/.jenkins/workspace/paralell
+[paralell] $ /bin/sh -xe /home/ec2-user/apache-tomcat-8.5.64/temp/jenkins2007103803180349174.sh
++ sleep 100
+Finished: SUCCESS
